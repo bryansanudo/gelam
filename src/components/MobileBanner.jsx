@@ -17,7 +17,7 @@ const MobileBanner = () => {
     },
     {
       id: 4,
-      link: "#",
+      link: "https://gelam.vercel.app/",
       src: logoGelam,
       brand:
         "rounded-full object-cover w-20 h-20 md:w-40 md:h-40 shadow-[#7abd22] hover:shadow-[#7abd22] duration-300  cursor-pointer hover:shadow-xl shadow-md",
