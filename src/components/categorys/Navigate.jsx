@@ -1,17 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 
-import {
-  FaPrescriptionBottleAlt,
-  FaThermometerThreeQuarters,
-} from "react-icons/fa";
 import logoGelam from "@/assets/logoGelam.jpg";
 
 const Navigate = () => {
+  const useScroll = () => {
+    alert("hols");
+    window.scroll({ top: 1100, left: 0, behavior: "smooth" });
+  };
   return (
     <>
       <div className="flex flex-col lg:flex-row p-5 mb-12 gap-5 items-center justify-center ">
-        <Link to="/">
+        <Link to="/" onClick={useScroll}>
           <div className="flex flex-col w-full md:flex-row justify-center items-center md:gap-8 rounded-full shadow-lg shadow-[#7abd22] hover:scale-105 duration-200 px-12 p-3 cursor-pointer ">
             <div className="flex gap-4 items-center justify-center">
               <img

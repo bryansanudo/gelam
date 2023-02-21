@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PageSection from "@/components/PageSection";
+import { useLocation } from "react-router-dom";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 import product1 from "@/assets/categorys/product1/product1.jpg";
 import product2 from "@/assets/categorys/product1/product2.jpg";
@@ -109,6 +111,10 @@ const Product1 = () => {
     },
   ];
 
+  const useScroll = () => {
+    window.scroll({ top: 1100, left: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="max-w-screen-xl mx-auto h-fit">
       <div className="my-40 mx-8 text-center lg:text-left">
@@ -144,12 +150,20 @@ const Product1 = () => {
                   </div>
                   <div className="m-4 capitalize text-sm md:text-lg flex items-center justify-center gap-5">
                     <article className="group-hover:scale-125 duration-300">
-                      <a href="" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.instagram.com/p/Cf7cz_3AcWy/?hl=es"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <IconInstagram />
                       </a>
                     </article>
                     <article className="group-hover:scale-125 duration-300">
-                      <a href="" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://api.whatsapp.com/send?phone=573045571083"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <IconWpp />
                       </a>
                     </article>
@@ -174,12 +188,20 @@ const Product1 = () => {
                   </div>
                   <div className="m-4 capitalize text-sm md:text-lg flex items-center justify-center gap-5">
                     <article className="group-hover:scale-125 duration-300">
-                      <a href="" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://www.instagram.com/p/CdjCJ-ggFa1/?hl=es"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <IconInstagram />
                       </a>
                     </article>
                     <article className="group-hover:scale-125 duration-300">
-                      <a href="" target="_blank" rel="noreferrer">
+                      <a
+                        href="https://api.whatsapp.com/send?phone=573045571083"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <IconWpp />
                       </a>
                     </article>
@@ -225,6 +247,12 @@ const Product1 = () => {
                 )
               )}
             </div>
+            <button
+              onClick={useScroll}
+              className="flex items-center justify-center mt-10"
+            >
+              <AiOutlineArrowUp className="text-[#7abd22] " size={40} />
+            </button>
           </div>
         </div>
       </div>
