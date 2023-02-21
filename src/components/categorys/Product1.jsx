@@ -122,15 +122,15 @@ const Product1 = () => {
         <h1 className="text-4xl lg:text-5xl text-center">
           Gel<span className="text-[#7abd22]">am </span>
         </h1>
-        <p className="my-4 text-center">
-          Te ayuda a depurar y desintoxicar el cuerpo de forma natural. 💚
-          Además de reducir el colesterol.
+        <p className="my-6 text-center border-l-4 pl-4 border-[#7abd22]">
+          Te ayuda a depurar y desintoxicar el cuerpo de forma natural. Además
+          de reducir el colesterol.
         </p>
-        <p className="my-4 text-center">
+        <p className="my-6 text-center border-l-4 pl-4 border-[#7abd22]">
           es un diurético natural que reduce la retención de líquidos y ayuda a
-          eliminar la grasa corporal, por lo que es perfecta para perder peso.{" "}
+          eliminar la grasa corporal, por lo que es perfecta para perder peso.
         </p>
-        <p className="my-4 text-center">
+        <p className="my-6 text-center border-l-4 pl-4 border-[#7abd22]">
           Posee bromelina, un poderoso antioxidante que funciona como un
           antiinflamatorio natural
         </p>
