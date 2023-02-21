@@ -112,7 +112,7 @@ const Product1 = () => {
   ];
 
   const useScroll = () => {
-    window.scroll({ top: 660, left: 0, behavior: "smooth" });
+    window.scroll({ top: 580, left: 0, behavior: "smooth" });
   };
 
   return (
