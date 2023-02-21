@@ -5,7 +5,6 @@ import logoGelam from "@/assets/logoGelam.jpg";
 
 const Navigate = () => {
   const useScroll = () => {
-    alert("hols");
     window.scroll({ top: 1100, left: 0, behavior: "smooth" });
   };
   return (
@@ -23,7 +22,7 @@ const Navigate = () => {
             </div>
           </div>
         </Link>
-        <Link to="/producto2">
+        <Link to="/producto2" onClick={useScroll}>
           <div className="flex flex-col w-full md:flex-row justify-center items-center gap-10 md:gap-10 rounded-full shadow-lg shadow-[#c36501] hover:scale-105 duration-200 px-14 p-3 cursor-pointer ">
             <div className="flex gap-4 items-center justify-center ">
               <img
