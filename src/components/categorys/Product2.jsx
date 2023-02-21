@@ -78,7 +78,7 @@ const Product2 = () => {
           Complementa tus rutinas y cuidados con productos creados especialmente
           para tus necesidades.
         </p>
-        <p className="my-4 text-center flex  items-center flex-col gap-2">
+        <p className="my-4 text-center flex  items-center flex-col gap-2 text-lg">
           Nuestro Gel Liporeductor moldea tu figura de forma inteligente.
           <AiFillFire size={30} className="text-[#fd6033]" />
         </p>
