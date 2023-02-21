@@ -127,7 +127,7 @@ const Product1 = () => {
           de reducir el colesterol.
         </p>
         <p className="my-6 text-center border-l-4 pl-4 border-[#7abd22] lg:text-left">
-          es un diurético natural que reduce la retención de líquidos y ayuda a
+          Es un diurético natural que reduce la retención de líquidos y ayuda a
           eliminar la grasa corporal, por lo que es perfecta para perder peso.
         </p>
         <p className="my-6 text-center border-l-4 pl-4 border-[#7abd22] lg:text-left">
