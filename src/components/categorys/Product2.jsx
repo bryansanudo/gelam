@@ -74,14 +74,14 @@ const Product2 = () => {
         <h1 className="text-4xl lg:text-5xl text-[#fd6033] text-center">
           Dyel
         </h1>
-        <p className="my-6 text-center border-l-4 pl-4 border-[#fd6033]">
+        <p className="my-6 text-center border-l-4 pl-4 border-[#fd6033] lg:text-left">
           Complementa tus rutinas y cuidados con productos creados especialmente
           para tus necesidades.
         </p>
-        <p className="my-6 text-center border-l-4 pl-4 border-[#fd6033]">
+        <p className="my-6 text-center border-l-4 pl-4 border-[#fd6033] lg:text-left">
           Nuestro Gel Liporeductor moldea tu figura de forma inteligente.
         </p>
-        <p className="my-6 text-center border-l-4 pl-4 border-[#fd6033]">
+        <p className="my-6 text-center border-l-4 pl-4 border-[#fd6033] lg:text-left">
           Es ideal para momentos en que estarás activa, ir a caminar, hacer tus
           labores en el hogar o ir al gimnasio.
         </p>
