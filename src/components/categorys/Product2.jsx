@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import PageSection from "@/components/PageSection";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import { AiOutlineArrowUp, AiFillFire } from "react-icons/ai";
 
 import product1 from "@/assets/categorys/product2/product1.jpg";
 import product2 from "@/assets/categorys/product2/product2.jpg";
@@ -74,18 +74,19 @@ const Product2 = () => {
         <h1 className="text-4xl lg:text-5xl text-[#fd6033] text-center">
           Dyel
         </h1>
-        <p className="my-4">
+        <p className="my-4 text-center">
           Complementa tus rutinas y cuidados con productos creados especialmente
           para tus necesidades.
         </p>
-        <p className="my-4">
+        <p className="my-4 text-center flex  items-center flex-col gap-2">
           Nuestro Gel Liporeductor moldea tu figura de forma inteligente.
+          <AiFillFire size={30} className="text-[#fd6033]" />
         </p>
-        <p className="my-4">
+        <p className="my-4 text-center">
           Es ideal para momentos en que estarás activa, ir a caminar, hacer tus
           labores en el hogar o ir al gimnasio.
         </p>
-        <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white">
+        <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white mt-12">
           <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4 ">
             <div className="grid gap-8 md:px-12 grid-cols-1 sm:grid-cols-2  lg:grid-cols-2">
               <div className="rounded-lg shadow-lg shadow-[#fd6033] group">

@@ -43,7 +43,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
   return (
     <>
-      <div className="md:fixed w-full h-40 opacity-50 text-white z-20 hover:opacity-100 ">
+      <div className=" md:fixed w-full h-40 opacity-50 text-white z-20 hover:opacity-100 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
           <div className="hidden lg:flex items-center">
             <ul className="flex gap-10">

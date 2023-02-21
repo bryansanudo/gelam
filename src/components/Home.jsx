@@ -10,10 +10,15 @@ const Home = () => {
           ¡Bienvenidos a Gel<span className="text-[#7abd22]">am </span>
           Bienestar!
         </h1>
-        <p className="my-8">
+        <p className="my-4 text-center">
           Estás buscando los potenciadores perfectos para tus rutinas de
-          entreno? Nuestros productos son 100% naturales y contamos con registro
-          Invima. ¡No esperes más y compra tus suplementos! Mira nuestra amplia
+          entreno?
+        </p>
+        <p className="my-4 text-center">
+          Nuestros productos son 100% naturales y contamos con registro Invima.
+        </p>
+        <p className="my-4 text-center">
+          ¡No esperes más y compra tus suplementos! Mira nuestra amplia
           selección de productos.
         </p>
 
