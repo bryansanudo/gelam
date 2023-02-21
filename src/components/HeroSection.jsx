@@ -21,7 +21,7 @@ const HeroSection = ({ isMenuShown }) => {
   return (
     <div
       name="inicio"
-      className="flex items-end justify-center h-[70vh] w-full md:h-screen text-center   "
+      className="flex items-end justify-center h-[35vh] w-full md:h-screen text-center   "
     >
       <video
         ref={videoRef}
@@ -31,7 +31,7 @@ const HeroSection = ({ isMenuShown }) => {
         type="video/mp4"
         playsInline
         muted
-        className=" object-cover w-[500px] h-[300px] md:h-full  md:w-full absolute -z-10 "
+        className=" object-cover w-[500px] h-[300px] md:h-full  md:w-full  absolute -z-10 "
       />
 
       <div

@@ -112,26 +112,31 @@ const Product1 = () => {
   ];
 
   const useScroll = () => {
-    window.scroll({ top: 1100, left: 0, behavior: "smooth" });
+    window.scroll({ top: 660, left: 0, behavior: "smooth" });
   };
 
   return (
     <div className="max-w-screen-xl mx-auto h-fit">
-      <div className="my-40 mx-8 text-center lg:text-left">
+      <div className="my-10 mx-8 text-center lg:text-left">
+        <Navigate />
         <h1 className="text-4xl lg:text-5xl text-center">
-          ¡Bienvenidos a Gel<span className="text-[#7abd22]">am </span>
-          Bienestar!
+          Gel<span className="text-[#7abd22]">am </span>
         </h1>
-        <p className="my-8">
-          Estás buscando los potenciadores perfectos para tus rutinas de
-          entreno? Nuestros productos son 100% naturales y contamos con registro
-          Invima. ¡No esperes más y compra tus suplementos! Mira nuestra amplia
-          selección de productos.
+        <p className="my-4">
+          Te ayuda a depurar y desintoxicar el cuerpo de forma natural. 💚
+          Además de reducir el colesterol.
+        </p>
+        <p className="my-4">
+          es un diurético natural que reduce la retención de líquidos y ayuda a
+          eliminar la grasa corporal, por lo que es perfecta para perder peso.{" "}
+        </p>
+        <p className="my-4">
+          Posee bromelina, un poderoso antioxidante que funciona como un
+          antiinflamatorio natural
         </p>
 
         <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white">
           <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4 ">
-            <Navigate />
             <div className="grid gap-8 md:px-12 grid-cols-1 sm:grid-cols-2  lg:grid-cols-2">
               <div className="rounded-lg shadow-lg shadow-[#7abd22] group">
                 <div className="flex flex-col items-center justify-center">

@@ -64,23 +64,29 @@ const Product2 = () => {
   ];
 
   const useScroll = () => {
-    window.scroll({ top: 1100, left: 0, behavior: "smooth" });
+    window.scroll({ top: 660, left: 0, behavior: "smooth" });
   };
 
   return (
     <div className="max-w-screen-xl mx-auto h-fit">
-      <div className="my-40 mx-8 text-center lg:text-left">
+      <div className="my-10 mx-8 text-center lg:text-left">
+        <Navigate />
         <h1 className="text-4xl lg:text-5xl text-[#fd6033] text-center">
           Dyel
         </h1>
-        <p className="my-8">
-          Gel reductor que moldea tu figura de forma inteligente. Complementa
-          tus rutinas y cuidados con productos creados especialmente para tus
-          necesidades.
+        <p className="my-4">
+          Complementa tus rutinas y cuidados con productos creados especialmente
+          para tus necesidades.
+        </p>
+        <p className="my-4">
+          Nuestro Gel Liporeductor moldea tu figura de forma inteligente.
+        </p>
+        <p className="my-4">
+          Es ideal para momentos en que estarás activa, ir a caminar, hacer tus
+          labores en el hogar o ir al gimnasio.
         </p>
         <div className="w-full bg-gradient-to-b from-gray-800 to-black text-white">
           <div className="mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4 ">
-            <Navigate />
             <div className="grid gap-8 md:px-12 grid-cols-1 sm:grid-cols-2  lg:grid-cols-2">
               <div className="rounded-lg shadow-lg shadow-[#fd6033] group">
                 <div className="flex flex-col items-center justify-center">

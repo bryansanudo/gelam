@@ -1,6 +1,7 @@
 import React from "react";
 
 import logoSara from "@/assets/logoSara.jpg";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 import logoJmarioCouture from "@/assets/logoJmarioCouture.jpg";
 import logoVoufit from "@/assets/logoVoufit.jpg";
@@ -42,7 +43,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
   return (
     <>
-      <div className="fixed w-full h-40 opacity-50 text-white z-20 hover:opacity-100 ">
+      <div className="md:fixed w-full h-40 opacity-50 text-white z-20 hover:opacity-100 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
           <div className="hidden lg:flex items-center">
             <ul className="flex gap-10">
@@ -56,12 +57,12 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
             </ul>
           </div>
 
-          {/* <div
+          <div
             onClick={() => setIsMenuShown(!isMenuShown)}
             className="block lg:hidden cursor-pointer "
           >
             {isMenuShown ? <FaTimes size={30} /> : <FaBars size={30} />}
-          </div> */}
+          </div>
         </div>
       </div>
 

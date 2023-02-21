@@ -6,6 +6,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import Product1 from "@/components/categorys/Product1";
 import Product2 from "@/components/categorys/Product2";
+import Home from "@/components/Home";
 
 function App() {
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -17,7 +18,8 @@ function App() {
       <MobileBanner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Product1 />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/producto1" element={<Product1 />} />
           <Route path="/producto2" element={<Product2 />} />
         </Routes>
       </BrowserRouter>
