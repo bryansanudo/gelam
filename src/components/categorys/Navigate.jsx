@@ -5,7 +5,7 @@ import logoGelam from "@/assets/logoGelam.jpg";
 
 const Navigate = () => {
   const useScroll = () => {
-    window.scroll({ top: 580, left: 0, behavior: "smooth" });
+    window.scroll({ top: 1425, left: 0, behavior: "smooth" });
   };
   return (
     <>
