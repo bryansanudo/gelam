@@ -45,7 +45,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
     <>
       <div className=" md:fixed w-full h-32 opacity-50 text-white z-20 hover:opacity-100 ">
         <div className="flex justify-between lg:justify-center md:gap-5 items-center max-w-screen-xl mx-auto px-4 h-full">
-          <div className="hidden lg:flex items-center">
+          <div className="hidden lg:flex items-center mt-12">
             <ul className="flex gap-10">
               {links.map(({ id, link, src, brand }) => (
                 <a key={id} href={link}>
@@ -59,7 +59,7 @@ const Navbar = ({ isMenuShown, setIsMenuShown }) => {
 
           <div
             onClick={() => setIsMenuShown(!isMenuShown)}
-            className="block lg:hidden cursor-pointer "
+            className=" hidden cursor-pointer "
           >
             {isMenuShown ? <FaTimes size={30} /> : <FaBars size={30} />}
           </div>
